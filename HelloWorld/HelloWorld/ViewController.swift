@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    //    @IBOutlet: Main.storyboard와 연결
     @IBOutlet var lblHello: UILabel!
     @IBOutlet var txtName: UITextField!
     @IBOutlet var lblHelloWorld: UILabel!
