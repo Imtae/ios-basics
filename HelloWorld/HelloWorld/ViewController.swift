@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet var txtName: UITextField!
     @IBOutlet var lblHelloWorld: UILabel!
     
+    //    viewDidLoad: 로드될 때 한 번만 동작
     override func viewDidLoad() {
         super.viewDidLoad()
         lblHelloWorld.text = "Hello world!!!!"
@@ -23,4 +24,5 @@ class ViewController: UIViewController {
     @IBAction func btnSend(_ sender: UIButton) {
         lblHello.text = "Hello, " + txtName.text!
     }
+    
 }
