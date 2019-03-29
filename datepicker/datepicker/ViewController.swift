@@ -29,11 +29,18 @@ class ViewController: UIViewController {
         let date = NSDate()
         let formatter = DateFormatter()
         
-        formatter.dateFormat = "yyyy-MM-dd HH:mm"
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss EEE"
+        
         lblCurrentTime.text = "현재시간: " + formatter.string(from: date as Date)
+        formatter.dateFormat = "yyyy-MM-dd HH:mm"
         currentTime = formatter.string(from: date as Date)
         if (currentTime == alarmTime) {
-            view.backgroundColor = UIColor.red
+            if (count % 2 == 0) {
+                view.backgroundColor = UIColor.red
+            } else {
+                view.backgroundColor = UIColor.blue
+            }
+            count += 1
         } else {
             view.backgroundColor = UIColor.white
         }
