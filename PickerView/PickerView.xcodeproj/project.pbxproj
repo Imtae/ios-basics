@@ -12,6 +12,12 @@
 		853C75972256D64D009B263D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853C75952256D64D009B263D /* Main.storyboard */; };
 		853C75992256D64E009B263D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853C75982256D64E009B263D /* Assets.xcassets */; };
 		853C759C2256D64E009B263D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853C759A2256D64E009B263D /* LaunchScreen.storyboard */; };
+		858791C52256DD5000B8FF46 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791BF2256DD5000B8FF46 /* 06.png */; };
+		858791C62256DD5000B8FF46 /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791C02256DD5000B8FF46 /* 01.png */; };
+		858791C72256DD5000B8FF46 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791C12256DD5000B8FF46 /* 04.png */; };
+		858791C82256DD5000B8FF46 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791C22256DD5000B8FF46 /* 03.png */; };
+		858791C92256DD5000B8FF46 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791C32256DD5000B8FF46 /* 02.png */; };
+		858791CA2256DD5000B8FF46 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 858791C42256DD5000B8FF46 /* 05.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		853C75982256D64E009B263D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853C759B2256D64E009B263D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853C759D2256D64E009B263D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858791BF2256DD5000B8FF46 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.png; path = ../../ImageSwiper/ImageSwiper/06.png; sourceTree = "<group>"; };
+		858791C02256DD5000B8FF46 /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = ../../ImageSwiper/ImageSwiper/01.png; sourceTree = "<group>"; };
+		858791C12256DD5000B8FF46 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.png; path = ../../ImageSwiper/ImageSwiper/04.png; sourceTree = "<group>"; };
+		858791C22256DD5000B8FF46 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.png; path = ../../ImageSwiper/ImageSwiper/03.png; sourceTree = "<group>"; };
+		858791C32256DD5000B8FF46 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.png; path = ../../ImageSwiper/ImageSwiper/02.png; sourceTree = "<group>"; };
+		858791C42256DD5000B8FF46 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 05.png; path = ../../ImageSwiper/ImageSwiper/05.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				853C75982256D64E009B263D /* Assets.xcassets */,
 				853C759A2256D64E009B263D /* LaunchScreen.storyboard */,
 				853C759D2256D64E009B263D /* Info.plist */,
+				858791C02256DD5000B8FF46 /* 01.png */,
+				858791C32256DD5000B8FF46 /* 02.png */,
+				858791C22256DD5000B8FF46 /* 03.png */,
+				858791C12256DD5000B8FF46 /* 04.png */,
+				858791C42256DD5000B8FF46 /* 05.png */,
+				858791BF2256DD5000B8FF46 /* 06.png */,
 			);
 			path = PickerView;
 			sourceTree = "<group>";
@@ -122,9 +140,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858791C82256DD5000B8FF46 /* 03.png in Resources */,
+				858791C62256DD5000B8FF46 /* 01.png in Resources */,
 				853C759C2256D64E009B263D /* LaunchScreen.storyboard in Resources */,
+				858791C92256DD5000B8FF46 /* 02.png in Resources */,
 				853C75992256D64E009B263D /* Assets.xcassets in Resources */,
+				858791CA2256DD5000B8FF46 /* 05.png in Resources */,
+				858791C72256DD5000B8FF46 /* 04.png in Resources */,
 				853C75972256D64D009B263D /* Main.storyboard in Resources */,
+				858791C52256DD5000B8FF46 /* 06.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
