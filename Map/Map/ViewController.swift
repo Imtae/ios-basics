@@ -84,6 +84,10 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             setAnnotation(latitudeValue: 37.5307871, longitudeValue: 126.8981, delta: 0.1, title: "이지스퍼블리싱", subtitle: "서울시 영등포구 당산로 41길 11")
             self.lblLocationInfo1.text = "보고 계신 위치"
             self.lblLocationInfo2.text = "이지스퍼블리싱 출판사"
+        } else if sender.selectedSegmentIndex == 3 {
+            setAnnotation(latitudeValue: 35.1440838, longitudeValue: 129.0091375, delta: 0.005, title: "동서대학교", subtitle: "부산광역시 사상구 주례2동 주례로 47")
+            self.lblLocationInfo1.text = "보고 계신 위치"
+            self.lblLocationInfo2.text = "동서대학교"
         }
     }
     
