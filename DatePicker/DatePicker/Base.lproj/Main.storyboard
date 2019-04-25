@@ -24,6 +24,9 @@
                                 <date key="date" timeIntervalSinceReferenceDate="576121765.67803597">
                                     <!--2019-04-05 01:49:25 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="changeDatePicker:" destination="BYZ-38-t0r" eventType="valueChanged" id="QDe-Hj-MsX"/>
+                                </connections>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="현재 시간: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1V-V2-WgG">
                                 <rect key="frame" x="20" y="127" width="374" height="53"/>
