@@ -16,6 +16,14 @@ class ImageViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btn1(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 0
+    }
+    
+    @IBAction func btn2(_ sender: UIButton) {
+        tabBarController?.selectedIndex = 2
+    }
+    
 
     /*
     // MARK: - Navigation
