@@ -8,8 +8,21 @@
 
 import UIKit
 
+protocol EditDelegate {
+    func didMessageEditDone(_ controller: EditViewController, message: String)
+    func didSwitchChangeDone(_ controller: EditViewController, isOn: Bool)
+}
+
 class EditViewController: UIViewController {
-    var textWayValue:String = ""
+    var textWayValue: String = ""
+    var textMessage: String = ""
+    var delegate: EditDelegate?
+    var isOn = false
+    
+    @IBOutlet var lblMessage: UILabel!
+    @IBOutlet var textField: UITextField!
+    @IBOutlet var switchEl: UISwitch!
+    
     
 //    Outlet 변수는 화면이 떠야 생성이 됨
 //    ViewController에서 textWavyValue 변수를 사용하는 이유
@@ -20,16 +33,24 @@ class EditViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         lblWay.text = textWayValue
+        textField.text = textMessage
+        switchEl.isOn = isOn
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func btnDone(_ sender: UIButton) {
+        if (delegate != nil) {
+            delegate?.didMessageEditDone(self, message: textField.text ?? "")
+            delegate?.didSwitchChangeDone(self, isOn: isOn)
+        }
+        _ = navigationController?.popViewController(animated: true)
     }
-    */
 
+    @IBAction func switchLamp(_ sender: UISwitch) {
+        if (sender.isOn) {
+            isOn = true
+        } else {
+            isOn = false
+        }
+    }
+    
 }
